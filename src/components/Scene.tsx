@@ -35,7 +35,6 @@ const Box: React.FC = () => {
         clearcoat={1}        // adds an extra glossy layer
         clearcoatRoughness={0.1}
       />
-      {/* Add a little HTML label that always faces camera */}
       <Html distanceFactor={10} position={[0, 120, 0]}>
         <div style={{
           background: 'rgba(255,255,255,0.8)',
