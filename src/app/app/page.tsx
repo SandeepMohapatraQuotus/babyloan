@@ -5,7 +5,6 @@ import { PointerLockControls, Sky, Environment, Sparkles, Box, Sphere, Cylinder,
 import { PointerLockControls as PointerLockControlsImpl } from 'three-stdlib';
 import * as THREE from 'three';
 
-// --- TYPE DEFINITIONS ---
 
 interface Space {
   id: string;
